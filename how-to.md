@@ -15,6 +15,10 @@
     . ~/.profile // Pour MAJ du chemin vers go OU
     source ~/.profile // MAJ du chemin (Variante)
 
+Si une précédente installation de Golang a été faites, il faut la supprimer :
+
+    sudo rm -Rf /usr/local/go
+
 ## Imports
     // Plusieurs librairies
     import (
